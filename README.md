@@ -1,13 +1,61 @@
-# React + Vite
+# 🍽️ Trabajo Práctico Final - Desarrollo de Front End
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un Trabajo Práctico Final para la materia **Desarrollo de Front End**, donde se desarrolló una aplicación web con **ReactJS**, **Bootstrap** y **SweetAlert2**.  
+Permite **gestionar los pedidos de un restaurante**, incluyendo altas, bajas, modificaciones y visualización en una tabla dinámica.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologías utilizadas
 
-## Expanding the ESLint configuration
+- ⚛️ ReactJS (con Vite)
+- 🎨 Bootstrap 5
+- 💾 LocalStorage para persistencia
+- 🍬 SweetAlert2 para alertas
+- 🔤 React Icons para íconos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Restaurante-PF
+---
+
+## 🎯 Funcionalidades
+
+- ✅ Alta de pedidos (Número de mesa, Producto, Cantidad)
+- ✅ Visualización en tabla con cálculos de precio y total
+- ✅ Edición de pedidos cargados
+- ✅ Eliminación con confirmación de seguridad
+- ✅ Persistencia con **LocalStorage**
+- ✅ Responsive, usable desde cualquier dispositivo
+- ✅ Estilo moderno con fondo personalizado y layout centrado
+
+---
+
+## 📦 Instalación y ejecución
+
+**Clonar el repositorio**
+
+```bash
+git clone https://github.com/tu-usuario/tp-restaurante.git
+```
+
+**Entrar al proyecto**
+```bash
+cd Restaurante-TP
+npm install
+npm run dev
+```
+
+📁 Estructura del proyecto
+```
+public/
+│ ├── logo.png
+│ └── restaurante.png
+src/
+├── assets/
+│   ├── logo.png
+│   └── restaurante.png
+├── components/
+│   ├── PedidoForm.jsx
+│   └── PedidoTable.jsx
+├── styles/
+│   └── main.css
+├── App.jsx
+├── main.jsx
+└── index.html
